@@ -1,0 +1,19 @@
+{
+  "name": "root/jupiter-team-coding-20170708",
+  "description": "jut pho phun",
+  "authors": [
+    {
+      "name": "Jupiter",
+      "email": "jupiter@deha-soft.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Src\\Entity\\": "src/entity",
+      "Src\\Model\\": "src/model"
+    }
+  }
+}
