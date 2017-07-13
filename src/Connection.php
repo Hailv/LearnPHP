@@ -4,11 +4,10 @@ namespace Src;
 
 class Connection
 {
-    static function get($serverName, $database, $userName, $password)
+    static function get(DatabaseConfig $config)
     {
-        return new \PDO("mysql:host=$serverName;dbname=$database", $userName, $password);
+        return new \PDO("mysql:host=" . $config->getServerName() . ";dbname=" . $config->getDbname(), $config->getUserName(), $config->getPassword());
     }
-
 
 
 }

@@ -13,7 +13,8 @@
   "autoload": {
     "psr-4": {
       "Src\\Entity\\": "src/entity",
-      "Src\\Model\\": "src/model"
+      "Src\\Model\\": "src/model",
+      "Src\\": "src"
     }
   }
 }
