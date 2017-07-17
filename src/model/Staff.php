@@ -32,8 +32,21 @@ class Staff
         $stmt->bindParam(':mobile', $mobile);
 
         $stmt->execute();
-        
+
         return $staff->setId($this->dbh->lastInsertId());
 
     }
+
+    public function get(StaffEntity $staff){
+
+        $id = $staff->getId();
+
+        $result = $this->dbh->prepare("SELECT * FROM staff WHERE id = $id");
+        $result->execute();
+
+        $staffArray = $result->fetch(\PDO::FETCH_ASSOC);
+
+        return (new StaffEntity($result->fetch(\PDO::FETCH_ASSOC)))->setId($staffArray['id']);
+    }
+
 }

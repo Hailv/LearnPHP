@@ -19,13 +19,14 @@ class Staff
 
     public function __construct($arrayStaff = [])
     {
-        if (!empty($arrayStaff)) {
-            $this
-                ->setName($arrayStaff['name'])
-                ->setEmail($arrayStaff['email'])
-                ->setMobile($arrayStaff['mobile']);
-        }
+        $this
+            ->setId(isset($arrayStaff['id']) ? $arrayStaff['id'] : null)
+            ->setName(isset($arrayStaff['name']) ? $arrayStaff['name'] : '')
+            ->setEmail(isset($arrayStaff['email']) ? $arrayStaff['email'] : '')
+            ->setMobile(isset($arrayStaff['mobile']) ? $arrayStaff['mobile'] : '');
     }
+
+
 
     /**
      * @return mixed

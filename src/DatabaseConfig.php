@@ -11,7 +11,7 @@ namespace Src;
 
 class DatabaseConfig
 {
-    private $serverName = "192.168.1.26";
+    private $serverName = "192.168.1.39";
     private $dbname = "default";
     private $userName = "root";
     private $password = "root";
