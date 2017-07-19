@@ -73,4 +73,20 @@ class Main
             echo "Khong co gia tri";
         }
     }
+    public function UpdateStaff()
+    {
+        $sql= "UPDATE staff SET phone = 0908070605 WHERE id = 1";
+        if($this->conn->query($sql)===TRUE)
+        {
+            echo " Update thanh cong";
+        }
+        else
+        {
+            echo " Co loi khi update";
+        }
+    }
+    public function DisconectFromDatabase()
+    {
+        mysqli_close($this->conn);
+    }
 }
