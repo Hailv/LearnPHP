@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<BookStore>
+        <Book Category="COOKING">
+            <title lang="en"> Harry Potter</title>
+            <author> J K. Rowling</author>
+            <year>2008</year>
+            <price>19.99 USD</price>
+            </Book>
+
+        <Book category="WEB">
+            <title lang="en-us">XQuery Kick Start</title>
+            <author>James McGovern</author>
+            <year>2003</year>
+            <price>49.99</price>
+        </Book>
+        <Book category="WEB">
+            <title lang="en-us">Learning XML</title>
+            <author>Erik T. Ray</author>
+            <year>2003</year>
+            <price>39.95</price>
+        </Book>
+
+</BookStore>
