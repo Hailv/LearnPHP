@@ -11,15 +11,15 @@ namespace Src;
 
 class DatabaseConfig
 {
-    private $serverName = "192.168.1.39";
-    private $dbname = "default";
+    private $serverName = "mysql";
+    private $dbname = "test";
     private $userName = "root";
     private $password = "root";
 
     /**
      * @return string
      */
-    public function getDbname(): string
+    public function getDbname()
     {
         return $this->dbname;
     }
@@ -27,7 +27,7 @@ class DatabaseConfig
     /**
      * @param string $dbname
      */
-    public function setDbname(string $dbname)
+    public function setDbname($dbname)
     {
         $this->dbname = $dbname;
     }
@@ -35,7 +35,7 @@ class DatabaseConfig
     /**
      * @return string
      */
-    public function getUserName(): string
+    public function getUserName()
     {
         return $this->userName;
     }
@@ -43,7 +43,7 @@ class DatabaseConfig
     /**
      * @param string $userName
      */
-    public function setUserName(string $userName)
+    public function setUserName($userName)
     {
         $this->userName = $userName;
     }
@@ -51,7 +51,7 @@ class DatabaseConfig
     /**
      * @return string
      */
-    public function getPassword(): string
+    public function getPassword()
     {
         return $this->password;
     }
@@ -59,7 +59,7 @@ class DatabaseConfig
     /**
      * @param string $password
      */
-    public function setPassword(string $password)
+    public function setPassword($password)
     {
         $this->password = $password;
     }
@@ -68,7 +68,7 @@ class DatabaseConfig
     /**
      * @return string
      */
-    public function getServerName(): string
+    public function getServerName()
     {
         return $this->serverName;
     }
@@ -76,7 +76,7 @@ class DatabaseConfig
     /**
      * @param string $serverName
      */
-    public function setServerName(string $serverName)
+    public function setServerName($serverName)
     {
         $this->serverName = $serverName;
     }

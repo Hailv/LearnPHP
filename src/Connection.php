@@ -8,6 +8,4 @@ class Connection
     {
         return new \PDO("mysql:host=" . $config->getServerName() . ";dbname=" . $config->getDbname(), $config->getUserName(), $config->getPassword());
     }
-
-
 }

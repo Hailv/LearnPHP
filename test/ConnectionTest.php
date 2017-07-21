@@ -13,9 +13,9 @@ use Src\Connection;
 
 class ConnectionTest extends TestCase
 {
-    private $serverName = "192.168.1.97";
+    private $serverName = "mysql";
     private $wrongServerName = "192.168.1.197";
-    private $database = "default";
+    private $database = "test";
     private $userName = "root";
     private $password = "root";
 

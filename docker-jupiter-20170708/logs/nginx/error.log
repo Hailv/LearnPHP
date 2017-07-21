@@ -12,3 +12,9 @@
 2017/07/09 06:25:58 [warn] 1#1: conflicting server name "localhost" on [::]:80, ignored
 2017/07/09 06:41:38 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
 2017/07/09 06:41:38 [warn] 1#1: conflicting server name "localhost" on [::]:80, ignored
+2017/07/21 02:38:17 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2017/07/21 02:38:17 [warn] 1#1: conflicting server name "localhost" on [::]:80, ignored
+2017/07/21 02:45:09 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2017/07/21 02:45:09 [warn] 1#1: conflicting server name "localhost" on [::]:80, ignored
+2017/07/21 03:05:11 [warn] 1#1: conflicting server name "localhost" on 0.0.0.0:80, ignored
+2017/07/21 03:05:11 [warn] 1#1: conflicting server name "localhost" on [::]:80, ignored
